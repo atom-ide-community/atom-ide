@@ -1,10 +1,6 @@
-/**
- * called by Atom when activating an extension
- */
+/** Called by Atom when activating an extension */
 export declare function activate(): void;
-/**
- * called by Atom when deactivating an extension
- */
+/** Called by Atom when deactivating an extension */
 export declare function deactivate(): void;
 export declare const config: {
     longLineLength: {
